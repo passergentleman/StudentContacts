@@ -1,0 +1,6 @@
+﻿  MFCApplication1Dlg.cpp
+MFCApplication1Dlg.obj : error LNK2019: unresolved external symbol _mysql_init@4 referenced in function "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CMFCApplication1Dlg@@QAEXXZ)
+MFCApplication1Dlg.obj : error LNK2019: unresolved external symbol _mysql_real_connect@32 referenced in function "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CMFCApplication1Dlg@@QAEXXZ)
+MFCApplication1Dlg.obj : error LNK2019: unresolved external symbol _mysql_query@8 referenced in function "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CMFCApplication1Dlg@@QAEXXZ)
+E:\mysql-5.7.22-winx64\lib\libmysql.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+c:\users\89728\documents\visual studio 2015\Projects\MFCApplication1\Debug\MFCApplication1.exe : fatal error LNK1120: 3 unresolved externals
